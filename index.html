@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<title>Crystals Collector</title>
+	<link href="./assets/images/favicon-gem.ico" rel="shortcut icon">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+	<link href="./assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container text-center">
+        <div class="row">
+            <div class="card my-4">
+                <div class="card-body">
+            <div class="col-sm-12">
+                <h1>Crystals Collector</h1>
+                <div class="row mt-5">
+                    <div class="col-sm-12 col-md-5">
+                            <h4>Instructions:</h4>
+                            <div class="text-left">
+                            <p>You will be given a random number at the start of the game.</p>
+                            <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+                            <p>You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.</p>
+                            <p>The value of each crystal is hidden from you until you click on it.</p>
+                            <p>Each time when the game starts, each crystal will change in value.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-7">
+                        <h2>The target number is: <span id="targetNumber"></span></h2>
+                        <h4>Wins: <span id="winCounter"></span></h4>
+                        <h4>Losses: <span id="lossesCounter"></span></h4>
+                        <div id="btn-area" class="animated fadeIn mb-3"></div>
+                        <h2>Your total score is: <span id="scoreCounter"></span></h2>
+                    </div>
+                </div>
+                
+            </div>
+            </div>
+            </div>
+        </div>
+    </div>
+	<footer>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-12">
+					<p class="text-center">Made by <a href="http://github.com/emilyhosoya">@emilyhosoya</a></p>
+				</div>
+			</div>
+		</div>
+    </footer>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" type="text/javascript">
+	</script> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" type="text/javascript">
+	</script> 
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" type="text/javascript">
+    </script> 
+    <script src="./assets/javascript/game.js" type="text/javascript">
+	</script> 
+</body>
+</html>

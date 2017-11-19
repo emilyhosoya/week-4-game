@@ -1,0 +1,29 @@
+body {
+    background: url('../images/cave-bg.jpg') no-repeat center center fixed;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Comfortaa', sans-serif;
+    color: white;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+button {
+    background-color: transparent;
+}
+
+button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+button img {
+    max-width: 100px;
+}
